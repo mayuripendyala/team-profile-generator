@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./src/generateHtml.html');
+const generateMarkdown = require('./src/generateHTML.js');
 
 const Manager = require('./Manager');
 const Engineer = require('./Engineer');
