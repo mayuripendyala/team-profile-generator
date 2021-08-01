@@ -96,7 +96,7 @@ generateHTML =(data) => {
 
     const employeeSection = pageArray.join('');
 
-    const generateTeam = generateTeamPage (employeeSection);
+    const generateTeam = generateTeamPage(employeeSection);
 
     return generateTeam;
     
@@ -119,7 +119,7 @@ const generateTeamPage = function (employeeSection) {
         <body>
             <header>
                 <nav calss="navbar" id="navbar">
-                    <span class="navbar-brand mb-0 h1 w-100 text-center id="navbar-text"> Team Profile</span>
+                    <span class="navbar-brand mb-0 h1 w-100 text-center id="navbar-text"> My Team</span>
                 </nav>
             </header>
             <main>
