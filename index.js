@@ -177,10 +177,10 @@ const addEmployee = () => {
         let employee;
 
         if(role === "Engineer") {
-            employee =new Engineer (name,id,email,github);
+            employee = new Engineer (name,id,email,github);
             console.log(employee);
         }
-        else if(role === "Intern") {
+        if(role === "Intern") {
             employee = new Intern (name, id, email, school); 
         }
 

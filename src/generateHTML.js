@@ -28,9 +28,8 @@ const generateEngineer = function (engineer) {
                 </div>
                 <div class="card-body">
                     <p class="id"> ID: ${engineer.id}</p>
-                    <p class="email">Email : <a href: "mailto:${engineer.email}"> ${intern.email}</a></p>
+                    <p class="email">Email : <a href: "mailto:${engineer.email}"> ${engineer.email}</a></p>
                     <p class="github">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
-
                 </div>
             
             </div>
@@ -81,7 +80,7 @@ generateHTML =(data) => {
 
         if(role ==='Engineer') {
 
-            const engineerSection =generateEngineer(employee);
+            const engineerSection = generateEngineer(employee);
 
             pageArray.push(engineerSection);
         }
