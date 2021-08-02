@@ -11,13 +11,14 @@ This is To generate a team profile based on user input using the Inquirer module
 
 
 ## Installaton
-User should clone the repository and download Node. This application also requires a file system and inquier module. Jest is required if you wanted to run tests
+User should clone the repository and download Node. This application also requires a file system and inquier module. Jest is required if you wanted to run tests, run `node index.js`
 
 
 ## Usage
 Use inquirer from your command line to answer questions about your project.
-View walk through video here - [Screencastify]()
+View walk through video here - https://youtu.be/2g19y-QdajA
 
+<img src="./images/screenshot.png">
 
 ## Tests
 
